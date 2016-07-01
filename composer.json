@@ -1,0 +1,26 @@
+{
+    "name": "break-down/entity-state",
+    "description": "Entity state implementation to define entity attributes with enumerated state values.",
+    "license": "MIT",
+    "keywords": [
+        "infrastructure",
+        "php",
+        "entity-meta",
+        "entity-state"
+    ],
+    "authors": [
+        {
+            "name": "Syed Haider Abbas",
+            "email": "haiderabbassimple@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "break-down/protocols": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
+}
